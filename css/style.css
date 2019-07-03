@@ -29,20 +29,20 @@ body {
   align-content: center;
 } */
 
-.accomodation, .behanced, .wordpress, .wine {
-  display: flex;
-}
 
 
-.projects img {
-  width: 600px;
+.projectsimg img {
+  width: 500px;
   height: auto;
   padding: 20px;
 }
 
-.projects {
-  /* flex-wrap: wrap; */
-  align-content: center;
+.projectsimg {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 100px;
+  justify-content: center;
+  
 }
 
 h1 {
@@ -156,5 +156,19 @@ span {
 }
 
 .info {
-  text-align: ;
+  margin: 40px ;
+}
+
+
+.projectTitle {
+  padding: 50px;
+}
+
+
+.github {
+  text-align: center
+}
+
+.github img {
+  height: 80px;
 }
